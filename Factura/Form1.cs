@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Factura
 {
+
     public partial class Form1 : Form
     {
+        long num = 0;
         public Form1()
         {
             InitializeComponent();
@@ -85,6 +87,13 @@ namespace Factura
             txtImporte5.Enabled = false;
             txtImporte6.Enabled = false;
             txtImporte7.Enabled = false;
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            txtFolio.Text = num.ToString();
+            num++;
+            MessageBox.Show("Factura ingresada correctamente bajo número de folio: " + num);
         }
     }
 }
