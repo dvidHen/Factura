@@ -70,23 +70,7 @@ namespace Factura
         private void Form1_Load(object sender, EventArgs e)
         {
             txtFolio.Enabled = false;
-            txtIva.Enabled = false;
-            txtSubtotal.Enabled = false;
-            txtTotal.Enabled = false;
-            txtPUnitario1.Enabled = false;
-            txtPUnitario2.Enabled = false;
-            txtPUnitario3.Enabled = false;
-            txtPUnitario4.Enabled = false;
-            txtPUnitario5.Enabled = false;
-            txtPUnitario6.Enabled = false;
-            txtPUnitario7.Enabled = false;
-            txtImporte1.Enabled = false;
-            txtImporte2.Enabled = false;
-            txtImporte3.Enabled = false;
-            txtImporte4.Enabled = false;
-            txtImporte5.Enabled = false;
-            txtImporte6.Enabled = false;
-            txtImporte7.Enabled = false;
+
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
